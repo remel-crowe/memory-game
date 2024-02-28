@@ -113,3 +113,30 @@ footer p{
 .hidden{
     display: none;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main_container{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .score_container{
+        padding-bottom: 0;
+        display: inline;
+    }
+
+    .card_container{
+        display: grid;
+        grid-template-columns: repeat(4, 70px);
+    }
+
+    .button_container{
+        gap:4rem
+    }
+
+    footer{
+        bottom: 30px;
+    }
+  }

@@ -34,3 +34,25 @@
     gap: 10px
 }
 
+
+@media only screen and (max-width: 600px) {
+    .pokeCard {
+        height: 110px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 125px;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card_info {
+        font-size: 12px;
+    }
+
+    .card_info img{
+        height: 150px;
+    }
+  }
